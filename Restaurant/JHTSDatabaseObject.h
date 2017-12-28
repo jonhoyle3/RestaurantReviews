@@ -16,9 +16,9 @@
 #include <string>
 #include <iostream>
 
-using namespace std;
+#include "JHTSAPI.h"
 
-typedef uint64_t JHTSGUID;
+using namespace std;
 
 
 // Utility function for distances

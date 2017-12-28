@@ -15,8 +15,8 @@ class JHTSUser : public JHTSDatabaseObject
 {
     public:
         // Constructors
-        JHTSUser(const char *lastName, const char *firstName, int zipCode);
-        JHTSUser(const string &lastName, const string &firstName, int zipCode);
+        JHTSUser(const char *lastName, const char *firstName, int zipCode = 0);
+        JHTSUser(const string &lastName, const string &firstName, int zipCode = 0);
 
         // Destructor
         virtual ~JHTSUser();
